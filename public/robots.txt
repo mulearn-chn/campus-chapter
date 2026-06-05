@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://mulearnchn-topaz.vercel.app/sitemap.xml
+Sitemap: https://mulearn-chn.vercel.app/sitemap.xml
