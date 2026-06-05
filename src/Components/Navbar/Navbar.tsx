@@ -5,6 +5,8 @@ import { useReactPath } from "./path.hook.ts";
 import { AiOutlineMenu } from "react-icons/ai";
 import data from "../../../data.json";
 
+import { motion } from "framer-motion";
+
 const Navbar = () => {
     const [openmenu, setopenmenu] = useState<boolean>(false);
     const [navbg, setNavBg] = useState<boolean>(false);
@@ -28,11 +30,14 @@ const Navbar = () => {
         };
     }, []);
     return (
-        <div
+        <motion.div
             className={styles.navbarWrapper}
             style={{
                 background: navbg ? "rgba(255,255,255,0.4)" : "transparent",
             }}
+            initial={{ y: -100, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            transition={{ duration: 0.5, ease: "easeOut" }}
         >
             <div className={styles.navbarLeft}>
                 <a href="#home">
@@ -100,7 +105,7 @@ const Navbar = () => {
                     </div>
                 )}
             </div>
-        </div>
+        </motion.div>
     );
 };
 

@@ -3,6 +3,7 @@ import styles from "./Team.module.css";
 import data from "../../../data.json";
 import line from "./assets/line.png";
 import line2 from "./assets/line2.png";
+import { motion } from "framer-motion";
 
 const Team = () => {
   const teamMembers = Object.keys(data.team).length;
@@ -125,308 +126,74 @@ const Team = () => {
       <h1>Our Team</h1>
       <div className={styles.teamBodyWrapper}>
         <div className={styles.teamBgLineWrapper}>{lineImages}</div>
-        <div ref={containerRef} className={styles.teamMembersDetailsWrapper}>
-          <div className={styles.team}>
-            <div className={styles.team1Img}>
-              <img
-                className={`${styles.teamImageIndividual} ${styles.ImagePositionAdjust}`}
-                src={data.team.staffAdvisor.image}
-                loading="lazy"
-              />
-            </div>
-            <div className={styles.teamNameDesignation}>
-              <div className={styles.teamMemberName}>
-                {data.team.staffAdvisor.name}
+        <motion.div 
+          ref={containerRef} 
+          className={styles.teamMembersDetailsWrapper}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.1 }}
+          variants={{
+            hidden: { opacity: 0 },
+            visible: {
+              opacity: 1,
+              transition: {
+                staggerChildren: 0.08,
+                delayChildren: 0.1
+              }
+            }
+          }}
+        >
+          {[
+            { member: data.team.staffAdvisor, title: "Lead Enabler", adjust: true },
+            { member: data.team.campusLead, title: "Campus Lead" },
+            { member: data.team.campusCoLead, title: "Campus Co-Lead" },
+            { member: data.team.creativeLead, title: "Creative Lead" },
+            { member: data.team.operationLead, title: "Operation Lead" },
+            { member: data.team.technicalLead, title: "Technical Lead", adjust: true },
+            { member: data.team.mediaLead, title: "Media Lead" },
+            { member: data.team.contentLead, title: "Content Lead" },
+            { member: data.team.operationTeam1, title: "Operation Team" },
+            { member: data.team.operationTeam2, title: "Operation Team" },
+            { member: data.team.designer1, title: "Designer" },
+            { member: data.team.designer2, title: "Designer" },
+            { member: data.team.contentTeam1, title: "Content Team" },
+            { member: data.team.contentTeam2, title: "Content Team", adjust: true },
+            { member: data.team.mediaTeam1, title: "Media Team" },
+            { member: data.team.mediaTeam2, title: "Media Team" },
+            { member: data.team.igLeadAI, title: "IG Lead-AI" },
+            { member: data.team.igLeadDesign, title: "IG Lead-UI/UX" },
+            { member: data.team.igLeadCyberSecurity, title: "IG Lead-Cyber Security" },
+            { member: data.team.igLeadWeb, title: "IG Lead-Web" }
+          ].map((item, index) => (
+            <motion.div 
+              className={styles.team} 
+              key={index}
+              variants={{
+                hidden: { opacity: 0, y: 30, scale: 0.95 },
+                visible: { 
+                  opacity: 1, 
+                  y: 0, 
+                  scale: 1,
+                  transition: { type: "spring", stiffness: 70, damping: 15 }
+                }
+              }}
+            >
+              <div className={styles.team1Img}>
+                <img
+                  className={`${styles.teamImageIndividual}${item.adjust ? ` ${styles.ImagePositionAdjust}` : ''}`}
+                  src={item.member.image}
+                  loading="lazy"
+                />
               </div>
-              <div className={styles.teamMemberDesignation}>Lead Enabler</div>
-            </div>
-          </div>
-          <div className={styles.team}>
-            <div className={styles.team1Img}>
-              <img
-                className={styles.teamImageIndividual}
-                src={data.team.campusLead.image}
-                loading="lazy"
-              />
-            </div>
-            <div className={styles.teamNameDesignation}>
-              <div className={styles.teamMemberName}>
-                {data.team.campusLead.name}
+              <div className={styles.teamNameDesignation}>
+                <div className={styles.teamMemberName}>
+                  {item.member.name}
+                </div>
+                <div className={styles.teamMemberDesignation}>{item.title}</div>
               </div>
-              <div className={styles.teamMemberDesignation}>Campus Lead</div>
-            </div>
-          </div>
-          <div className={styles.team}>
-            <div className={styles.team1Img}>
-              <img
-                className={styles.teamImageIndividual}
-                src={data.team.campusCoLead.image}
-                loading="lazy"
-              />
-            </div>
-            <div className={styles.teamNameDesignation}>
-              <div className={styles.teamMemberName}>
-                {data.team.campusCoLead.name}
-              </div>
-              <div className={styles.teamMemberDesignation}>Campus Co-Lead</div>
-            </div>
-          </div>
-          <div className={styles.team}>
-            <div className={styles.team1Img}>
-              <img
-                className={styles.teamImageIndividual}
-                src={data.team.creativeLead.image}
-                loading="lazy"
-              />
-            </div>
-            <div className={styles.teamNameDesignation}>
-              <div className={styles.teamMemberName}>
-                {data.team.creativeLead.name}
-              </div>
-              <div className={styles.teamMemberDesignation}>Creative Lead</div>
-            </div>
-          </div>
-          <div className={styles.team}>
-            <div className={styles.team1Img}>
-              <img
-                className={styles.teamImageIndividual}
-                src={data.team.operationLead.image}
-                loading="lazy"
-              />
-            </div>
-            <div className={styles.teamNameDesignation}>
-              <div className={styles.teamMemberName}>
-                {data.team.operationLead.name}
-              </div>
-              <div className={styles.teamMemberDesignation}>Operation Lead</div>
-            </div>
-          </div>
-          <div className={styles.team}>
-            <div className={styles.team1Img}>
-              <img
-                className={`${styles.teamImageIndividual} ${styles.ImagePositionAdjust}`}
-                src={data.team.technicalLead.image}
-                loading="lazy"
-              />
-            </div>
-            <div className={styles.teamNameDesignation}>
-              <div className={styles.teamMemberName}>
-                {data.team.technicalLead.name}
-              </div>
-              <div className={styles.teamMemberDesignation}>Technical Lead</div>
-            </div>
-          </div>
-          <div className={styles.team}>
-            <div className={styles.team1Img}>
-              <img
-                className={styles.teamImageIndividual}
-                src={data.team.mediaLead.image}
-                loading="lazy"
-              />
-            </div>
-            <div className={styles.teamNameDesignation}>
-              <div className={styles.teamMemberName}>
-                {data.team.mediaLead.name}
-              </div>
-              <div className={styles.teamMemberDesignation}>Media Lead</div>
-            </div>
-          </div>
-          <div className={styles.team}>
-            <div className={styles.team1Img}>
-              <img
-                className={styles.teamImageIndividual}
-                src={data.team.contentLead.image}
-                loading="lazy"
-              />
-            </div>
-            <div className={styles.teamNameDesignation}>
-              <div className={styles.teamMemberName}>
-                {data.team.contentLead.name}
-              </div>
-              <div className={styles.teamMemberDesignation}>Content Lead</div>
-            </div>
-          </div>
-          <div className={styles.team}>
-            <div className={styles.team1Img}>
-              <img
-                className={styles.teamImageIndividual}
-                src={data.team.operationTeam1.image}
-                loading="lazy"
-              />
-            </div>
-            <div className={styles.teamNameDesignation}>
-              <div className={styles.teamMemberName}>
-                {data.team.operationTeam1.name}
-              </div>
-              <div className={styles.teamMemberDesignation}>Operation Team</div>
-            </div>
-          </div>
-          <div className={styles.team}>
-            <div className={styles.team1Img}>
-              <img
-                className={styles.teamImageIndividual}
-                src={data.team.operationTeam2.image}
-                loading="lazy"
-              />
-            </div>
-            <div className={styles.teamNameDesignation}>
-              <div className={styles.teamMemberName}>
-                {data.team.operationTeam2.name}
-              </div>
-              <div className={styles.teamMemberDesignation}>Operation Team</div>
-            </div>
-          </div>
-          <div className={styles.team}>
-            <div className={styles.team1Img}>
-              <img
-                className={styles.teamImageIndividual}
-                src={data.team.designer1.image}
-                loading="lazy"
-              />
-            </div>
-            <div className={styles.teamNameDesignation}>
-              <div className={styles.teamMemberName}>
-                {data.team.designer1.name}
-              </div>
-              <div className={styles.teamMemberDesignation}>Designer</div>
-            </div>
-          </div>
-          <div className={styles.team}>
-            <div className={styles.team1Img}>
-              <img
-                className={styles.teamImageIndividual}
-                src={data.team.designer2.image}
-                loading="lazy"
-              />
-            </div>
-            <div className={styles.teamNameDesignation}>
-              <div className={styles.teamMemberName}>
-                {data.team.designer2.name}
-              </div>
-              <div className={styles.teamMemberDesignation}>Designer</div>
-            </div>
-          </div>
-          <div className={styles.team}>
-            <div className={styles.team1Img}>
-              <img
-                className={styles.teamImageIndividual}
-                src={data.team.contentTeam1.image}
-                loading="lazy"
-              />
-            </div>
-            <div className={styles.teamNameDesignation}>
-              <div className={styles.teamMemberName}>
-                {data.team.contentTeam1.name}
-              </div>
-              <div className={styles.teamMemberDesignation}>Content Team</div>
-            </div>
-          </div>
-          <div className={styles.team}>
-            <div className={styles.team1Img}>
-              <img
-                className={`${styles.teamImageIndividual} ${styles.ImagePositionAdjust}`}
-                src={data.team.contentTeam2.image}
-                loading="lazy"
-              />
-            </div>
-            <div className={styles.teamNameDesignation}>
-              <div className={styles.teamMemberName}>
-                {data.team.contentTeam2.name}
-              </div>
-              <div className={styles.teamMemberDesignation}>Content Team</div>
-            </div>
-          </div>
-          <div className={styles.team}>
-            <div className={styles.team1Img}>
-              <img
-                className={styles.teamImageIndividual}
-                src={data.team.mediaTeam1.image}
-                loading="lazy"
-              />
-            </div>
-            <div className={styles.teamNameDesignation}>
-              <div className={styles.teamMemberName}>
-                {data.team.mediaTeam1.name}
-              </div>
-              <div className={styles.teamMemberDesignation}>Media Team</div>
-            </div>
-          </div>
-          <div className={styles.team}>
-            <div className={styles.team1Img}>
-              <img
-                className={styles.teamImageIndividual}
-                src={data.team.mediaTeam2.image}
-                loading="lazy"
-              />
-            </div>
-            <div className={styles.teamNameDesignation}>
-              <div className={styles.teamMemberName}>
-                {data.team.mediaTeam2.name}
-              </div>
-              <div className={styles.teamMemberDesignation}>Media Team</div>
-            </div>
-          </div>
-          <div className={styles.team}>
-            <div className={styles.team1Img}>
-              <img
-                className={styles.teamImageIndividual}
-                src={data.team.igLeadAI.image}
-                loading="lazy"
-              />
-            </div>
-            <div className={styles.teamNameDesignation}>
-              <div className={styles.teamMemberName}>
-                {data.team.igLeadAI.name}
-              </div>
-              <div className={styles.teamMemberDesignation}>IG Lead-AI</div>
-            </div>
-          </div>
-          <div className={styles.team}>
-            <div className={styles.team1Img}>
-              <img
-                className={styles.teamImageIndividual}
-                src={data.team.igLeadDesign.image}
-                loading="lazy"
-              />
-            </div>
-            <div className={styles.teamNameDesignation}>
-              <div className={styles.teamMemberName}>
-                {data.team.igLeadDesign.name}
-              </div>
-              <div className={styles.teamMemberDesignation}>IG Lead-UI/UX</div>
-            </div>
-          </div>
-          <div className={styles.team}>
-            <div className={styles.team1Img}>
-              <img
-                className={styles.teamImageIndividual}
-                src={data.team.igLeadCyberSecurity.image}
-                loading="lazy"
-              />
-            </div>
-            <div className={styles.teamNameDesignation}>
-              <div className={styles.teamMemberName}>
-                {data.team.igLeadCyberSecurity.name}
-              </div>
-              <div className={styles.teamMemberDesignation}>IG Lead-Cyber Security</div>
-            </div>
-          </div>
-          <div className={styles.team}>
-            <div className={styles.team1Img}>
-              <img
-                className={styles.teamImageIndividual}
-                src={data.team.igLeadWeb.image}
-                loading="lazy"
-              />
-            </div>
-            <div className={styles.teamNameDesignation}>
-              <div className={styles.teamMemberName}>
-                {data.team.igLeadWeb.name}
-              </div>
-              <div className={styles.teamMemberDesignation}>IG Lead-Web</div>
-            </div>
-          </div>
-        </div>
+            </motion.div>
+          ))}
+        </motion.div>
       </div>
     </div>
   );

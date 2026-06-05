@@ -3,15 +3,28 @@ import image from "./assets/homeimg.svg";
 import { BlueStar, WhiteStar, Mu } from "./assets/svg";
 import data from '../../../data.json'
 
+import { motion } from "framer-motion";
+
 const Home = () => {
     return (
         <div id="home" className={styles.HomeWrapper}>
-            <div className={styles.contentWraper}>
+            <motion.div 
+                className={styles.contentWraper}
+                initial={{ y: 80, opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                transition={{ duration: 1, ease: [0.16, 1, 0.3, 1], delay: 0.1 }}
+            >
                 <h1>Welcome to the</h1>
                 <h2>µverse</h2>
                 <p>{data.college}</p>
-            </div>
-            <img src={image} alt="" />
+            </motion.div>
+            <motion.img 
+                src={image} 
+                alt="" 
+                initial={{ scale: 0.9, opacity: 0, y: 20 }}
+                animate={{ scale: 1, opacity: 1, y: 0 }}
+                transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1], delay: 0.2 }}
+            />
             <div className={styles.start1}>
                 <BlueStar size="50px" />
             </div>{" "}

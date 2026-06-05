@@ -3,8 +3,9 @@ import { ULearn } from "../../assets/svg/svg";
 import data from "../../../data.json"
 import { useEffect, useRef, useState } from "react";
 
-const Statistics = () => {
+import { motion } from "framer-motion";
 
+const Statistics = () => {
     const [counters, setCounters] = useState<number[]>([0, 0, 0, 0]); // Initialize counters
     const durationInSeconds = 3; // Duration in seconds
 
@@ -27,10 +28,10 @@ const Statistics = () => {
 
     useEffect(() => {
         const finalValues: number[] = [
-            data.statistics.studentsCount ?? 0,
+            Number(data.statistics.studentsCount) || 0,
             data.statistics.learningCircles ?? 0,
             data.statistics.InterestGroups ?? 0,
-            data.statistics.karmaEarned ?? 0,
+            Number(data.statistics.karmaEarned) || 0,
         ];
 
         const startCounterAnimation = () => {
@@ -81,10 +82,16 @@ const Statistics = () => {
                 observer.unobserve(targetRef.current);
             }
         };
-    }, [data.statistics]);
+    }, []);
 
     return (
-        <div className={styles.StatWrapper}>
+        <motion.div 
+            className={styles.StatWrapper}
+            initial={{ opacity: 0, scale: 0.95, y: 30 }}
+            whileInView={{ opacity: 1, scale: 1, y: 0 }}
+            viewport={{ once: true, amount: 0.3 }}
+            transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
+        >
             <h1>Our Statistics</h1>
             <div className={styles.contentDiv}>
                 <div className={styles.leftContainer} ref={targetRef}>
@@ -124,7 +131,7 @@ const Statistics = () => {
                     <h2>Rank:{data.statistics.rank}</h2>
                 </div>
             </div>
-        </div>
+        </motion.div>
     );
 };
 
