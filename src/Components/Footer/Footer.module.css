@@ -79,3 +79,54 @@
         font-size: 8px;
     }
 }
+
+
+
+/* Footer navigation links */
+.topFooter a {
+    transition: all 0.3s ease;
+}
+
+.topFooter a:hover {
+    color: #ffffff;
+    transform: translateY(-2px);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+}
+
+/* Social media links */
+.socialMedia a {
+    transition: all 0.3s ease;
+}
+
+.socialMedia a:hover {
+    transform: translateY(-3px) scale(1.05);
+    text-shadow: 0 0 12px rgba(255, 255, 255, 0.8);
+}
+
+/* Social media icons */
+.socialMedia a svg {
+    transition: all 0.3s ease;
+}
+
+.socialMedia a:hover svg {
+    transform: rotate(-8deg) scale(1.15);
+}
+
+/* Email text */
+.topFooter p {
+    transition: all 0.3s ease;
+}
+
+.topFooter p:hover {
+    text-shadow: 0 0 12px rgba(255, 255, 255, 0.8);
+}
+
+/* Logo hover */
+.topFooter svg {
+    transition: all 0.4s ease;
+}
+
+.topFooter svg:hover {
+    transform: scale(1.05);
+    filter: drop-shadow(0 0 12px rgba(255, 255, 255, 0.6));
+}
