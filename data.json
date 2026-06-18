@@ -6,40 +6,41 @@
     "about": "µLearn CHN is a dynamic community powered by GTech, dedicated to fostering growth through mutual learning. We bring together curious minds to explore new ideas, develop skills, and collaborate on innovative projects. Our community thrives on peer learning, mentorship, and hands-on experiences, empowering individuals to grow both personally and professionally.Join us and be part of a movement that transforms learning into action!",
 
     "events": [
+        
         {
-            "month": "March",
-            "date": "9-16",
-            "head": "Make(Me)²",
-            "para": "A fun-filled meme-making competition organized as part of Women's Day, where teams unleash their creativity to craft witty and engaging memes on a given topic. Participants can select any template from the provided list to bring their ideas to life!",
-            "img": "https://mulearnpics-mub4kg27p-amanulfarhans-projects.vercel.app/event1.jpeg"
+            "month": "June-July",
+            "date": "21-21",
+            "head": "Level Up in 30",
+            "para": "A 30-day mentorship-driven sprint where students follow structured learning paths and build portfolio-ready projects within their chosen Interest Groups.",
+            "img": "https://res.cloudinary.com/dsyus516r/image/upload/v1781766719/whtsp_level-up_tbnepm.png"
         },
         {
-            "month": "March",
-            "date": "7-15",
-            "head": "Change the Look",
-            "para": " A creative challenge introduced as a follow-up to the Introduction to Figma workshop from the µQuest series. Students take a random poster and redesign it with their unique creative touch, enhancing their Figma skills.",
-            "img": "https://mulearnpics-mub4kg27p-amanulfarhans-projects.vercel.app/event3.jpeg"
+            "month": "April",
+            "date": "6-7",
+            "head": "Build with AI",
+            "para": "A 16-hour AI-powered hackathon where students collaborate, innovate, and transform ideas into real-world solutions.",
+            "img": "https://res.cloudinary.com/dsyus516r/image/upload/v1781766717/aihackathon-1_hi4a32.png"
         },
         {
-            "month": "March",
-            "date": "5-6",
-            "head": "Introduction to Figma",
-            "para": " A two-day session designed to familiarize students with Figma and its essential tools. This workshop marked the launch of the µQuest series, setting the stage for hands-on learning and creative exploration.",
-            "img": "https://mulearnpics-mub4kg27p-amanulfarhans-projects.vercel.app/event2.jpeg"
+            "month": "February",
+            "date": "26",
+            "head": "Behind the Hack",
+            "para": "A hands-on learning experience that introduces students to cybersecurity fundamentals, ethical hacking, and modern security practices.",
+            "img": "https://res.cloudinary.com/dsyus516r/image/upload/v1781766749/bthwhatsappp_ajgwbu.png"
         },
         {
-            "month": "March",
-            "date": "5",
-            "head": "µQUEST",
-            "para": "µQUEST is a workshop and challenge series designed to educate students and guide them through Level 3 tasks on Discord, enhancing their skills and engagement.",
-            "img": "https://mulearnpics-mub4kg27p-amanulfarhans-projects.vercel.app/event6.jpeg"
+            "month": "February",
+            "date": "1-28",
+            "head": "µment 2.0",
+            "para": "A month-long learning journey where students develop practical skills, work on meaningful projects, and receive guidance from experienced mentors.",
+            "img": "https://res.cloudinary.com/dsyus516r/image/upload/v1781767092/mument_insta_1_zrzods.png"
         },
         {
-            "month": "January",
-            "date": "29-30",
-            "head": "Karma Fest",
-            "para": "A 2-day event to onboard students to Discord, boost campus karma points, and increase participation in µLearn through fun challenges and interactive sessions.",
-            "img": "https://mulearnpics-mub4kg27p-amanulfarhans-projects.vercel.app/event4.jpeg"
+            "month": "August",
+            "date": "4-13",
+            "head": "Build-a-Struct",
+            "para": "A week-long hands-on bootcamp where students learn core Data Structures and Algorithms in C through guided sessions and practical problem-solving.",
+            "img": "https://res.cloudinary.com/dsyus516r/image/upload/v1781766719/Build_a_Struct_img_hdwyy3.jpg"
         }
     ],
 
@@ -86,7 +87,7 @@
         },
         "campusLead": {
             "name": "Nithin Jayakumar",
-            "image": "https://mulearnpics-mub4kg27p-amanulfarhans-projects.vercel.app/Nithin.jpg"
+            "image": "https://res.cloudinary.com/dsyus516r/image/upload/v1781766715/Nithin_img_b8crqm.jpg"
         },
         "campusCoLead": {
             "name": "Divyalakshmi",
@@ -126,15 +127,15 @@
         },
 	    "designer2": {
             "name": "Vismaya Gawri Krishnan",
-            "image": "https://res.cloudinary.com/dctmapb3t/image/upload/v1780434762/un0yzbv0bo9iujvayjnt.jpg"
+            "image": "https://res.cloudinary.com/dsyus516r/image/upload/v1781766717/Vismaya_img_e9nuzo.jpg"
         },
         "contentTeam1": {
             "name": "Karthika S",
-            "image": "https://res.cloudinary.com/dctmapb3t/image/upload/v1780433802/ogfv1jkvqeqqguxdtr0a.jpg"
+            "image": "https://res.cloudinary.com/dsyus516r/image/upload/v1781770029/Karthika_img_gpvjgu.jpg"
         },
         "contentTeam2": {
             "name": "Wazha Afzal Koyappathodi",
-            "image": "https://res.cloudinary.com/dctmapb3t/image/upload/v1780433906/mqqikavlmgqkzfqf7qx2.jpg"
+            "image": "https://res.cloudinary.com/dsyus516r/image/upload/v1781770029/Wazha_img_gj9u6r.jpg"
         },
         "mediaTeam1": {
             "name": "Parvathy Vinayan",
@@ -158,7 +159,7 @@
         },
         "igLeadWeb": {
             "name": "Abhiram J",
-            "image": "https://res.cloudinary.com/dctmapb3t/image/upload/v1780434665/owegwiyc7gqa8esjvjjo.jpg"
+            "image": "https://res.cloudinary.com/dsyus516r/image/upload/v1781770581/Abhiram_img_nmhnad.jpg"
         }
 
     },
