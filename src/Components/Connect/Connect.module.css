@@ -108,8 +108,11 @@
 
 .contentWrapper img {
   height: 100%;
+  width: auto;
   object-fit: cover;
-  max-width: 40%;
+  max-width: 115%;
+  margin-left: auto;
+  display: block;
   transition: transform 0.5s ease;
 }
 
