@@ -163,7 +163,8 @@ const Team = () => {
             { member: data.team.igLeadAI, title: "IG Lead-AI" },
             { member: data.team.igLeadDesign, title: "IG Lead-UI/UX" },
             { member: data.team.igLeadCyberSecurity, title: "IG Lead-Cyber Security" },
-            { member: data.team.igLeadWeb, title: "IG Lead-Web" }
+            { member: data.team.igLeadWeb, title: "IG Lead-Web" },
+            { member: data.team.igLeadEntrepreneurship, title: "IG Lead-Entrepreneurship" }
           ].map((item, index) => (
             <motion.div 
               className={styles.team} 
