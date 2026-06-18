@@ -10,16 +10,20 @@ import { motion } from "framer-motion";
 const Navbar = () => {
     const [openmenu, setopenmenu] = useState<boolean>(false);
     const [navbg, setNavBg] = useState<boolean>(false);
+
     function openMenu() {
         setopenmenu(!openmenu);
     }
-    const path:string = useReactPath();
-    const navContent:string[] = ["home", "about", "gallery", "team", "contact"];
+
+    const path: string = useReactPath();
+    const navContent: string[] = ["home", "about", "gallery", "team", "contact"];
+
     useEffect(() => {
-        if(path === "/") return;
+        if (path === "/") return;
         setopenmenu(false);
-     }, [path]);
-    const changeNavBg = ():void => {
+    }, [path]);
+
+    const changeNavBg = (): void => {
         window.scrollY >= 150 ? setNavBg(true) : setNavBg(false);
     };
 
@@ -29,6 +33,7 @@ const Navbar = () => {
             window.removeEventListener("scroll", changeNavBg);
         };
     }, []);
+
     return (
         <motion.div
             className={styles.navbarWrapper}
@@ -41,23 +46,20 @@ const Navbar = () => {
         >
             <div className={styles.navbarLeft}>
                 <a href="#home">
-                    <ULearn/>
+                    <ULearn />
                     <p>{data.collegeCode}</p>
                 </a>
             </div>
+
             <div className={styles.navbarRight}>
                 <div>
                     {navContent.map((content, i) => (
-                        <a href={`#${content}`} 
-                        key={i.toString() + content}
+                        <a
+                            href={`#${content}`}
+                            key={i.toString() + content}
                         >
                             <p
                                 style={{
-                                    borderBottom: window.location.href.includes(
-                                        `#${content}`
-                                    )
-                                        ? "4px solid #B3B3FF"
-                                        : "",
                                     height: "18px",
                                     fontSize: "18px",
                                     fontWeight: 600,
@@ -68,15 +70,22 @@ const Navbar = () => {
                         </a>
                     ))}
                 </div>
+
                 <button>
-                    <a target="_blank" href="http://app.mulearn.org/register">Join µLearn</a>
+                    <a
+                        target="_blank"
+                        href="http://app.mulearn.org/register"
+                    >
+                        Join µLearn
+                    </a>
                 </button>
             </div>
-            
+
             <div className={styles.navbarMobile}>
                 <button onClick={openMenu} className={styles.hamburger}>
                     <AiOutlineMenu />
                 </button>
+
                 {openmenu && (
                     <div>
                         {navContent.map((content, i) => (
@@ -86,12 +95,6 @@ const Navbar = () => {
                             >
                                 <p
                                     style={{
-                                        borderBottom:
-                                            window.location.href.includes(
-                                                `#${content}`
-                                            )
-                                                ? "4px solid #B3B3FF"
-                                                : "",
                                         height: "18px",
                                     }}
                                 >
@@ -99,8 +102,14 @@ const Navbar = () => {
                                 </p>
                             </a>
                         ))}
+
                         <button>
-                            <a href="http://app.mulearn.org">Join µlearn</a>
+                            <a
+                                target="_blank"
+                                href="http://app.mulearn.org/register"
+                            >
+                                Join µLearn
+                            </a>
                         </button>
                     </div>
                 )}
