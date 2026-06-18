@@ -69,7 +69,7 @@ const Navbar = () => {
                     ))}
                 </div>
                 <button>
-                    <a target="_blank" href="http://app.mulearn.org/register">Join µlearn</a>
+                    <a target="_blank" href="http://app.mulearn.org/register">Join µLearn</a>
                 </button>
             </div>
             
