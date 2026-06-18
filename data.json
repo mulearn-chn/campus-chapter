@@ -15,28 +15,28 @@
             "img": "https://res.cloudinary.com/dsyus516r/image/upload/v1781766719/whtsp_level-up_tbnepm.png"
         },
         {
-            "month": "April",
+            "month": "Apr",
             "date": "6-7",
             "head": "Build with AI",
             "para": "A 16-hour AI-powered hackathon where students collaborate, innovate, and transform ideas into real-world solutions.",
             "img": "https://res.cloudinary.com/dsyus516r/image/upload/v1781766717/aihackathon-1_hi4a32.png"
         },
         {
-            "month": "February",
+            "month": "Feb",
             "date": "26",
             "head": "Behind the Hack",
             "para": "A hands-on learning experience that introduces students to cybersecurity fundamentals, ethical hacking, and modern security practices.",
             "img": "https://res.cloudinary.com/dsyus516r/image/upload/v1781766749/bthwhatsappp_ajgwbu.png"
         },
         {
-            "month": "February",
+            "month": "Feb",
             "date": "1-28",
             "head": "µment 2.0",
             "para": "A month-long learning journey where students develop practical skills, work on meaningful projects, and receive guidance from experienced mentors.",
             "img": "https://res.cloudinary.com/dsyus516r/image/upload/v1781767092/mument_insta_1_zrzods.png"
         },
         {
-            "month": "August",
+            "month": "Aug",
             "date": "4-13",
             "head": "Build-a-Struct",
             "para": "A week-long hands-on bootcamp where students learn core Data Structures and Algorithms in C through guided sessions and practical problem-solving.",
@@ -160,6 +160,11 @@
         "igLeadWeb": {
             "name": "Abhiram J",
             "image": "https://res.cloudinary.com/dsyus516r/image/upload/v1781770581/Abhiram_img_nmhnad.jpg"
+
+        },
+        "igLeadEntrepreneurship":{
+            "name":"Swathy J",
+            "image":"https://res.cloudinary.com/dsyus516r/image/upload/v1781777411/Swathy_J_bhxuww.jpg"
         }
 
     },
