@@ -64,7 +64,6 @@
   grid-column: 2 / span 2;
 }
 
-
 .team {
   display: flex;
   align-items: center;
@@ -160,20 +159,35 @@
   }
 }
 
+/* UPDATED */
+
 @media screen and (max-width: 900px) {
   .teamMembersDetailsWrapper {
     grid-template-columns: repeat(2, 1fr);
     gap: 30px 15px;
+    justify-items: center;
   }
 
   .teamMembersDetailsWrapper .team:last-child:nth-child(odd) {
-    grid-column: 1 / span 2;
+    grid-column: auto;
   }
 }
 
-@media screen and (max-width: 500px) {
-  .teamNameDesignation {
-    font-size: 1rem;
+/* UPDATED */
+
+@media screen and (max-width: 600px) {
+  .teamMembersDetailsWrapper {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .team {
+    max-width: 320px;
+  }
+
+  .teamImageIndividual {
+    height: 10rem;
+    width: 10rem;
   }
 
   .teamMemberName {
@@ -182,11 +196,6 @@
 
   .teamMemberDesignation {
     font-size: 1rem;
-  }
-
-  .teamImageIndividual {
-    height: 10rem;
-    width: 10rem;
   }
 }
 
