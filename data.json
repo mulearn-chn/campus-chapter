@@ -6,42 +6,253 @@
     "about": "µLearn CHN is a dynamic community powered by GTech, dedicated to fostering growth through mutual learning. We bring together curious minds to explore new ideas, develop skills, and collaborate on innovative projects. Our community thrives on peer learning, mentorship, and hands-on experiences, empowering individuals to grow both personally and professionally.Join us and be part of a movement that transforms learning into action!",
 
     "events": [
+        
         {
-            "month": "March",
-            "date": "9-16",
-            "head": "Make(Me)²",
-            "para": "A fun-filled meme-making competition organized as part of Women's Day, where teams unleash their creativity to craft witty and engaging memes on a given topic. Participants can select any template from the provided list to bring their ideas to life!",
-            "img": "https://mulearnpics-mub4kg27p-amanulfarhans-projects.vercel.app/event1.jpeg"
+            "month": "June-July",
+            "date": "21-21",
+            "head": "Level Up in 30",
+            "para": "A 30-day mentorship-driven sprint where students follow structured learning paths and build portfolio-ready projects within their chosen Interest Groups.",
+            "img": "https://res.cloudinary.com/dsyus516r/image/upload/v1781766719/whtsp_level-up_tbnepm.png"
         },
         {
-            "month": "March",
-            "date": "7-15",
-            "head": "Change the Look",
-            "para": " A creative challenge introduced as a follow-up to the Introduction to Figma workshop from the µQuest series. Students take a random poster and redesign it with their unique creative touch, enhancing their Figma skills.",
-            "img": "https://mulearnpics-mub4kg27p-amanulfarhans-projects.vercel.app/event3.jpeg"
+            "month": "Apr",
+            "date": "6-7",
+            "head": "Build with AI",
+            "para": "A 16-hour AI-powered hackathon where students collaborate, innovate, and transform ideas into real-world solutions.",
+            "img": "https://res.cloudinary.com/dsyus516r/image/upload/v1781766717/aihackathon-1_hi4a32.png"
         },
         {
-            "month": "March",
-            "date": "5-6",
-            "head": "Introduction to Figma",
-            "para": " A two-day session designed to familiarize students with Figma and its essential tools. This workshop marked the launch of the µQuest series, setting the stage for hands-on learning and creative exploration.",
-            "img": "https://mulearnpics-mub4kg27p-amanulfarhans-projects.vercel.app/event2.jpeg"
+            "month": "Feb",
+            "date": "26",
+            "head": "Behind the Hack",
+            "para": "A hands-on learning experience that introduces students to cybersecurity fundamentals, ethical hacking, and modern security practices.",
+            "img": "https://res.cloudinary.com/dsyus516r/image/upload/v1781766749/bthwhatsappp_ajgwbu.png"
         },
         {
-            "month": "March",
-            "date": "5",
-            "head": "µQUEST",
-            "para": "µQUEST is a workshop and challenge series designed to educate students and guide them through Level 3 tasks on Discord, enhancing their skills and engagement.",
-            "img": "https://mulearnpics-mub4kg27p-amanulfarhans-projects.vercel.app/event6.jpeg"
+            "month": "Feb",
+            "date": "1-28",
+            "head": "µment 2.0",
+            "para": "A month-long learning journey where students develop practical skills, work on meaningful projects, and receive guidance from experienced mentors.",
+            "img": "https://res.cloudinary.com/dsyus516r/image/upload/v1781767092/mument_insta_1_zrzods.png"
         },
         {
-            "month": "January",
-            "date": "29-30",
-            "head": "Karma Fest",
-            "para": "A 2-day event to onboard students to Discord, boost campus karma points, and increase participation in µLearn through fun challenges and interactive sessions.",
-            "img": "https://mulearnpics-mub4kg27p-amanulfarhans-projects.vercel.app/event4.jpeg"
+            "month": "Aug",
+            "date": "4-13",
+            "head": "Build-a-Struct",
+            "para": "A week-long hands-on bootcamp where students learn core Data Structures and Algorithms in C through guided sessions and practical problem-solving.",
+            "img": "https://res.cloudinary.com/dsyus516r/image/upload/v1781766719/Build_a_Struct_img_hdwyy3.jpg"
         }
     ],
+
+    "eventArchive": {
+  "2025-26": [
+    {
+      "month": "Aug",
+      "date": "4-13",
+      "head": "Build a Struct",
+      "para": "A 7-day intensive workshop on Data Structures held from Aug 04–Aug 13, 2025, for students to strengthen CS foundations through hands-on tasks.",
+      "img": "https://res.cloudinary.com/dsyus516r/image/upload/v1781766719/Build_a_Struct_img_hdwyy3.jpg"
+    },
+    {
+      "month": "Jul",
+      "date": "30",
+      "head": "Intro to IOT Essentials",
+      "para": "A beginner-friendly session on Jul 30, 2025, covering smart device communication, hardware interaction, and real-world IoT applications.",
+      "img": "https://res.cloudinary.com/dsyus516r/image/upload/v1782328440/Intro_to_IOT_Essentials_zbk6r7.jpg"
+    },
+    {
+      "month": "Jan",
+      "date": "15",
+      "head": "Notion Flow",
+      "para": "A productivity workshop conducted on Jan 15, 2026, to introduce students to workspace organization, task management, and academic workflows.",
+      "img": "https://res.cloudinary.com/dsyus516r/image/upload/v1782328439/Notion_Flow_sduhbn.jpg"
+    },
+    {
+      "month": "Jan",
+      "date": "31",
+      "head": "From Campus to Career",
+      "para": "An online career guidance session held on Jan 31, 2026, featuring Career Coach Remya Girija to discuss professional development and industry expectation",
+      "img": "https://res.cloudinary.com/dsyus516r/image/upload/v1782328439/From_Campus_to_Career_g3nh1x.jpg"
+    },
+    {
+      "month": "Feb",
+      "date": "7-8",
+      "head": "Exodia 3.0",
+      "para": "An all-Kerala technical gala on Feb 07–08, 2026, featuring intensive tracks in Robotics, Computer Vision, and Data Science with Machine Learning.",
+      "img": "https://res.cloudinary.com/dsyus516r/image/upload/v1782328438/WhatsApp_Image_2026-06-25_at_00.14.58_qjgekr.jpg"
+    },
+    {
+      "month": "Jul",
+      "date": "30",
+      "head": "Basics of Wireframing",
+      "para": " A UI/UX session on Jul 30, 2025, that introduced participants to the fundamentals of interface design and digital layout structuring.",
+      "img": "https://res.cloudinary.com/dsyus516r/image/upload/v1782328439/WhatsApp_Image_2026-06-25_at_00.18.50_1_pebjvz.jpg"
+    },
+    {
+      "month": "Dec",
+      "date": "10-20",
+      "head": "Keyboard Mastery 3.0",
+      "para": "A 10-day online typing challenge from Dec 10–Dec 20, 2025, aimed at improving typing speed, accuracy, and professional discipline.",
+      "img": "https://res.cloudinary.com/dsyus516r/image/upload/v1782328438/WhatsApp_Image_2026-06-25_at_00.16.26_ze0ajs.jpg"
+    },
+    {
+      "month": "Jan",
+      "date": "8",
+      "head": "Blind Coding",
+      "para": "A pre-event for Exodia 3.0 on Jan 08, 2026, where students tested their logical thinking by coding without screens.",
+      "img": "https://res.cloudinary.com/dsyus516r/image/upload/v1782328438/WhatsApp_Image_2026-06-25_at_00.17.41_n9v1bk.jpg"
+    },
+    {
+      "month": "Apr",
+      "date": "6-7",
+      "head": "Build with AI ",
+      "para": "A 16-hour intercollege sprint from Apr 06–Apr 07, 2026, focused on building innovative AI solutions using Google Cloud and Gemini API.",
+      "img": "https://res.cloudinary.com/dsyus516r/image/upload/v1781766717/aihackathon-1_hi4a32.png"
+    },
+    {
+      "month": "Jul",
+      "date": "14",
+      "head": "Website Redesign",
+      "para": "A web development workshop on Jul 14, 2025, introducing core front-end concepts and redesign methodologies through practical tasks.",
+      "img": "https://res.cloudinary.com/dsyus516r/image/upload/v1782328439/WhatsApp_Image_2026-06-25_at_00.18.50_jghinj.jpg"
+    },
+    {
+      "month": "Mar",
+      "date": "31",
+      "head": "Build with AI: Gemini-powered YouTube Summarizer",
+      "para": "A technical workshop on Mar 31, 2026, where students used the Google Gemini API to build and deploy a video summarization tool.",
+      "img": "https://res.cloudinary.com/dsyus516r/image/upload/v1782328439/WhatsApp_Image_2026-06-25_at_00.15.40_zhmzvb.jpg"
+    }
+
+
+  ],
+  "2024-25": [
+    {
+      "month": "Mar",
+      "date": "15",
+      "head": "Change the Look",
+      "para": "A creative poster design challenge that encouraged students to transform existing designs into impactful visual narratives.",
+      "img": "https://res.cloudinary.com/dsyus516r/image/upload/v1781809617/Change_the_Look_vgf0t5.jpg"
+    },
+    {
+      "month": "Feb",
+      "date": "15-16",
+      "head": "Exodia'25",
+      "para": "An all-Kerala technical gala featuring specialized stacks in Cyber Security, Chatbot Mastery, and Robotics with IoT.",
+      "img": "https://res.cloudinary.com/dsyus516r/image/upload/v1781809616/Exodia_25_a4cgdd.jpg"
+    },
+    {
+      "month": "Mar",
+      "date": "5-6",
+      "head": "Introduction to Figma",
+      "para": "A two-day offline workshop where participants gained practical design skills through hands-on Figma exercises.",
+      "img": "https://res.cloudinary.com/dsyus516r/image/upload/v1781809621/Introduction_to_Figma_gpxmsf.jpg"
+    },
+    {
+      "month": "Jan",
+      "date": "29-30",
+      "head": "Karma Fest",
+      "para": "A two-day event introducing students to the μLearn Discord community and the importance of earning Karma Points.",
+      "img": "https://res.cloudinary.com/dsyus516r/image/upload/v1781809616/Karma_Fest_wzsgaf.jpg"
+    },
+    {
+      "month": "Mar",
+      "date": "16",
+      "head": "Make(Me)2 ",
+      "para": "An online meme-making competition themed around Women's Day to foster collaborative creativity and social narrative exploration.",
+      "img": "https://res.cloudinary.com/dsyus516r/image/upload/v1781809618/Make_Me_2_ogvrzj.jpg"
+    },
+    {
+      "month": "Jan",
+      "date": "9",
+      "head": "Notion 101",
+      "para": "A hands-on session that introduced students to productivity and workspace management using Notion's diverse features",
+      "img": "https://res.cloudinary.com/dsyus516r/image/upload/v1781809615/Notion_101_iiae8y.jpg"
+    },
+    {
+      "month": "Mar",
+      "date": "19",
+      "head": "Salt Mango Tree",
+      "para": "A casual Discord talk session exploring the theme of failure vs. regret to promote open communication and community connection.",
+      "img": "https://res.cloudinary.com/dsyus516r/image/upload/v1781809616/Salt_Mango_Tree_2_em543t.jpg"
+    },
+    {
+      "month": "Jan",
+      "date": "28",
+      "head": "Sherlock'D",
+      "para": "An online analytical competition where participants solved complex encryption, audio, and cryptographic challenges",
+      "img": "https://res.cloudinary.com/dsyus516r/image/upload/v1781856739/Sherlock_D_bsqpjk.jpg"
+    },
+    {
+      "month": "Feb",
+      "date": "6",
+      "head": "Verbattle",
+      "para": "An intellectual debate competition centered on women's empowerment and inclusive dialogue as a precursor to Exodia'25.",
+      "img": "https://res.cloudinary.com/dsyus516r/image/upload/v1781856748/Verbattle_sr0eoa.jpg"
+    }
+    
+  ],
+  "2023-24": [
+    {
+      "month": "Sept",
+      "date": "10-12",
+      "head": "TechForge 2.0",
+      "para": "A collaborative three-day initiative from September 10 to 12, 2024, launching a year-long peer-learning ecosystem focused on UI/UX, Arduino, and Flutter.",
+      "img": "https://res.cloudinary.com/dsyus516r/image/upload/v1781794985/TechForge_2.0_ftt9mx.jpg"
+    },
+    {
+      "month": "Oct",
+      "date": "16",
+      "head": "Salt Mango Tree",
+      "para": "A language enhancement workshop conducted on October 16, 2024, focused on strengthening students' professional communication, expressive writing, and vocabulary.",
+      "img": "https://res.cloudinary.com/dsyus516r/image/upload/v1781794876/Salt_Mango_Tree_duuxa5.jpg"
+    },
+    {
+      "month": "Aug",
+      "date": "29",
+      "head": "Keyboard Mastery Level 2",
+      "para": "An advanced, offline typing competition conducted on August 29, 2024, that challenged students to enhance their speed and accuracy through progressively difficult rounds.",
+      "img": "https://res.cloudinary.com/dsyus516r/image/upload/v1781794761/Keyboard_Mastery_Level_2_pcysox.jpg"
+    },
+    {
+      "month": "Apr",
+      "date": "10-30",
+      "head": "Keyboard Mastery 2.0",
+      "para": "A structured 20-day online program held in April 2024, dedicated to bridging the gap between basic typing familiarity and professional-level proficiency.",
+      "img": "https://res.cloudinary.com/dsyus516r/image/upload/v1781794632/Keyboard_Mastery_2.0_tjqt8n.jpg"
+    },
+    {
+      "month": "Feb",
+      "date": "17-18",
+      "head": "Exodia'24",
+      "para": "A comprehensive All-Kerala technical event held on February 17 and 18, 2024, featuring expert-led workshops on cutting-edge domains like AI, Cybersecurity, and IoT.",
+      "img": "https://res.cloudinary.com/dsyus516r/image/upload/v1781799196/Exodia_r3sldl.jpg"
+    },
+    {
+      "month": "Jun",
+      "date": "18",
+      "head": "Exclusive Weekly Twitch",
+      "para": "An interactive online talk session led by P Sathya Narayan on June 18, 2024, designed to inspire students through real-world professional insights and motivational storytelling.",
+      "img": "https://res.cloudinary.com/dsyus516r/image/upload/v1781796937/Exclusive_Weekly_Twitch_2_icomgi.jpg"
+    },
+    {
+      "month": "Dec",
+      "date": "17",
+      "head": "Exclusive Weekly Twitch",
+      "para": " A motivational year-end session held on December 17, 2024, where Abhaynath T G shared lessons on resilience and self-belief to foster a growth-oriented mindset.",
+      "img": "https://res.cloudinary.com/dsyus516r/image/upload/v1781794002/Exclusive_Weekly_Twitch_lnzeh3.jpg"
+    }
+  ],
+  "2022-23": [
+    {
+      "month": "Sept",
+      "date": "13-15",
+      "head": "Postman Student Expert",
+      "para": "A guided training program where students learn API testing, documentation, scripting, and collection management while preparing for the Postman Student Expert certification.",
+      "img": "https://res.cloudinary.com/dsyus516r/image/upload/v1781791520/Postman_Student_Expert_wpxkma.jpg"
+    }
+  ]
+},
 
     "gallery": {
         "row1": [
@@ -86,7 +297,7 @@
         },
         "campusLead": {
             "name": "Nithin Jayakumar",
-            "image": "https://mulearnpics-mub4kg27p-amanulfarhans-projects.vercel.app/Nithin.jpg"
+            "image": "https://res.cloudinary.com/dsyus516r/image/upload/v1781766715/Nithin_img_b8crqm.jpg"
         },
         "campusCoLead": {
             "name": "Divyalakshmi",
@@ -126,15 +337,15 @@
         },
 	    "designer2": {
             "name": "Vismaya Gawri Krishnan",
-            "image": "https://res.cloudinary.com/dctmapb3t/image/upload/v1780434762/un0yzbv0bo9iujvayjnt.jpg"
+            "image": "https://res.cloudinary.com/dsyus516r/image/upload/v1781766717/Vismaya_img_e9nuzo.jpg"
         },
         "contentTeam1": {
             "name": "Karthika S",
-            "image": "https://res.cloudinary.com/dctmapb3t/image/upload/v1780433802/ogfv1jkvqeqqguxdtr0a.jpg"
+            "image": "https://res.cloudinary.com/dsyus516r/image/upload/v1781770029/Karthika_img_gpvjgu.jpg"
         },
         "contentTeam2": {
             "name": "Wazha Afzal Koyappathodi",
-            "image": "https://res.cloudinary.com/dctmapb3t/image/upload/v1780433906/mqqikavlmgqkzfqf7qx2.jpg"
+            "image": "https://res.cloudinary.com/dsyus516r/image/upload/v1781770029/Wazha_img_gj9u6r.jpg"
         },
         "mediaTeam1": {
             "name": "Parvathy Vinayan",
@@ -158,7 +369,12 @@
         },
         "igLeadWeb": {
             "name": "Abhiram J",
-            "image": "https://res.cloudinary.com/dctmapb3t/image/upload/v1780434665/owegwiyc7gqa8esjvjjo.jpg"
+            "image": "https://res.cloudinary.com/dsyus516r/image/upload/v1781770581/Abhiram_img_nmhnad.jpg"
+
+        },
+        "igLeadEntrepreneurship":{
+            "name":"Swathy J",
+            "image":"https://res.cloudinary.com/dsyus516r/image/upload/v1781777411/Swathy_J_bhxuww.jpg"
         }
 
     },

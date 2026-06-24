@@ -1,0 +1,153 @@
+.eventArchive {
+  width: 100%;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.eventArchive h2 {
+  color: #ae59ff;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+/* Year Tabs */
+
+.yearTabs {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 3rem;
+}
+
+.yearBtn {
+  padding: 12px 28px;
+  border: 2px solid #ae59ff;
+  background: white;
+  color: #ae59ff;
+  border-radius: 999px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.yearBtn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(174, 89, 255, 0.2);
+}
+
+.active {
+  background: #ae59ff;
+  color: white;
+}
+
+/* Events Grid */
+
+.eventsGrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* centers 1 card or multiple cards */
+  gap: 30px;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* Event Card */
+
+.eventCard {
+  width: 350px;
+  background: #ffffff;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  text-align: left;
+}
+
+.eventCard:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 35px rgba(174, 89, 255, 0.18);
+}
+
+/* Event Image */
+
+.eventCard img {
+  width: 100%;
+  height: auto; /* show full image */
+  display: block;
+  background: #f8f8f8;
+}
+
+/* Content */
+
+.eventContent {
+  padding: 20px;
+}
+
+.eventDate {
+  color: #ae59ff;
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.eventContent h3 {
+  margin: 10px 0;
+  font-size: 1.5rem;
+  color: #222;
+}
+
+.eventContent p {
+  color: #666;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+/* Empty State */
+
+.emptyState {
+  padding: 3rem;
+  border: 2px dashed #d6abfe;
+  border-radius: 20px;
+  color: #666;
+  font-size: 1.1rem;
+  width: 100%;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 768px) {
+  .eventArchive {
+    padding: 3rem 1rem;
+  }
+
+  .eventArchive h2 {
+    font-size: 2rem;
+  }
+
+  .eventCard {
+    width: 100%;
+    max-width: 350px;
+  }
+
+  .eventContent h3 {
+    font-size: 1.25rem;
+  }
+
+  .eventContent p {
+    font-size: 0.95rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .yearBtn {
+    width: 100%;
+    max-width: 220px;
+  }
+
+  .eventContent {
+    padding: 16px;
+  }
+}
