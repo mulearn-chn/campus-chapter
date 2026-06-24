@@ -144,3 +144,43 @@
     padding: 10px 25px 0px;
   }
 }
+
+/* Desktop navbar items */
+.navbarRight a p {
+  transition: all 0.3s ease;
+}
+
+.navbarRight a p:hover {
+  color: #ad62fe;
+  transform: translateY(-2px);
+}
+
+/* Join button */
+.navbarRight button {
+  transition: all 0.3s ease;
+}
+
+.navbarRight button:hover {
+  transform: translateY(-2px) scale(1.05);
+  box-shadow: 0 4px 12px rgba(107, 107, 255, 0.35);
+}
+
+/* Mobile menu items */
+.navbarMobile a p {
+  transition: all 0.3s ease;
+}
+
+.navbarMobile a p:hover {
+  color: #ad62fe;
+  transform: scale(1.05);
+}
+
+/* Mobile Join button */
+.navbarMobile button {
+  transition: all 0.3s ease;
+}
+
+.navbarMobile button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(107, 107, 255, 0.35);
+}
