@@ -254,33 +254,35 @@
   ]
 },
 
-    "gallery": {
-        "row1": [
-            {
-                "image": "https://mulearnpics-mub4kg27p-amanulfarhans-projects.vercel.app/IMG_5086.JPG"
-            },
-            {
-                "image": "https://mulearnpics-mub4kg27p-amanulfarhans-projects.vercel.app/IMG_7789.jpg"
-            },
-			{
-				"image": "https://mulearnpics-mub4kg27p-amanulfarhans-projects.vercel.app/IMG_7834.jpg"
-			}
-        ],
-        "row2": [
-            {
-                "image": "https://mulearnpics-mub4kg27p-amanulfarhans-projects.vercel.app/IMG_9798.jpg"
-            },
-            {
-                "image": "https://mulearnpics-mub4kg27p-amanulfarhans-projects.vercel.app/IMG_7844.jpg"
-            },
-		{
-                "image": "https://mulearnpics-mub4kg27p-amanulfarhans-projects.vercel.app/IMG_9803.jpg"
-            },
-            {
-                "image": "https://mulearnpics-mub4kg27p-amanulfarhans-projects.vercel.app/event5.jpeg"
-            }
-        ]
+    
+"gallery": {
+  "row1": [
+    {
+      "image": "https://res.cloudinary.com/dsyus516r/image/upload/v1793550439/IMG_5086_tm6kwh.jpg"
     },
+    {
+      "image": "https://res.cloudinary.com/dsyus516r/image/upload/v1793550439/IMG_7789_qyh10e.jpg"
+    },
+    {
+      "image": "https://res.cloudinary.com/dsyus516r/image/upload/v1793550438/IMG_7834_xrr7b7.jpg"
+    }
+  ],
+  "row2": [
+    {
+      "image": "https://res.cloudinary.com/dsyus516r/image/upload/v1793550438/IMG_9798_mvknx7.jpg"
+    },
+    {
+      "image": "https://res.cloudinary.com/dsyus516r/image/upload/v1793550438/IMG_7844_lclzmf.jpg"
+    },
+    {
+      "image": "https://res.cloudinary.com/dsyus516r/image/upload/v1793550438/IMG_9803_ixchge.jpg"
+    },
+    {
+      "image": "https://res.cloudinary.com/dsyus516r/image/upload/v1793550435/event5_zdu88j.jpg"
+    }
+  ]
+}
+,
 
     "statistics": {
         "studentsCount": "1090" ,
@@ -293,7 +295,7 @@
     "team": {
         "staffAdvisor": {
             "name": "Geetha S",
-            "image": "https://mulearnpics-mub4kg27p-amanulfarhans-projects.vercel.app/geetha.jpg"
+            "image": "https://res.cloudinary.com/dsyus516r/image/upload/v1793550435/geetha_hebv4k.jpg"
         },
         "campusLead": {
             "name": "Nithin Jayakumar",
@@ -313,7 +315,7 @@
         },
         "technicalLead": {
             "name": "Amanul Farhan",
-            "image": "https://mulearnpics-mub4kg27p-amanulfarhans-projects.vercel.app/amanul.jpeg"
+            "image": "https://res.cloudinary.com/dsyus516r/image/upload/v1793550435/amanul_ufuaq7.jpg"
         },
         "mediaLead": {
             "name": "Pavithra A",
